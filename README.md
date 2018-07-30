@@ -8,7 +8,7 @@ common structure for front-end developer, nodejs developer, full-stack developer
 ## Install all the Dependencies.
 npm i;
 
-## Build the sourcr code
+## Build the source code
 npm run build
 
 ## Run local dev server
