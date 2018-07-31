@@ -16,4 +16,8 @@ npm run build
 npm run local
 
 #### Run local swauger-ui server
-npm run swauger
+npm run swagger
+
+
+## tips
+#### 1. ln[command] not permission, solution is https://segmentfault.com/q/1010000003958979

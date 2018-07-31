@@ -7,7 +7,8 @@
     "test": "test",
     "build": "cross-env NODE_ENV=prod webpack --config build.js",
     "local": "cross-env NODE_ENV=local node server.js",
-    "swauger": "cross-env NODE_ENV=local node swauger-ui.js"
+    "swauger": "cross-env NODE_ENV=local node swauger-ui.js",
+    "api": "cross-env NODE_ENV=local node api.js"
   },
   "keywords": [
     "front-end",
@@ -35,6 +36,7 @@
   },
   "dependencies": {
     "babel": "^6.23.0",
+    "hapi": "^17.5.2",
     "swagger-ui-dist": "^3.17.6",
     "vue": "^2.5.16",
     "vue-loader": "^15.2.6",
