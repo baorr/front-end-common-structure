@@ -18,6 +18,8 @@ npm run local
 #### Run local swauger-ui server
 npm run swagger
 
+## resource
+1. swagger api: https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md
 
 ## tips
 #### 1. ln[command] not permission, solution is https://segmentfault.com/q/1010000003958979

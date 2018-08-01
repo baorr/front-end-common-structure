@@ -10,6 +10,8 @@ app.use(webpackDevMiddleware(compiler, {
   publicPath: '/'
 }));
 
+app.use(express.static('./swagger-ui/dist'));   //add to the static directory
+
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!\n');
 });
