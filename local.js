@@ -6,11 +6,13 @@ const app = express();
 const config = require('./build.js');
 const compiler = webpack(config);
 
+
+
 app.use(webpackDevMiddleware(compiler, {
   publicPath: '/'
 }));
 
-app.use(express.static('./swagger-ui/dist'));   //add to the static directory
+app.use('/swagger', express.static('./swagger-ui/dist'));    //let the swagger api works.
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!\n');

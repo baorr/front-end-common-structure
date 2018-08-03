@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "build": "cross-env NODE_ENV=prod webpack --config build.js",
-    "local": "cross-env NODE_ENV=local node server.js",
+    "local": "cross-env NODE_ENV=local node local.js",
     "swagger": "cross-env NODE_ENV=local node swauger-ui.js"
   },
   "keywords": [
