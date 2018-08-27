@@ -12,6 +12,10 @@ app.use(webpackDevMiddleware(compiler, {
   publicPath: '/'
 }));
 
+app.get('/v2/authority/login', function (req, res) {
+  res.send('authority/login');
+})
+
 app.use('/swagger', express.static('./swagger-ui/dist'));    //let the swagger api works.
 
 app.listen(3000, function () {
