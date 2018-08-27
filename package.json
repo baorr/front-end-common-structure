@@ -4,7 +4,7 @@
   "description": "common structure for front-end project, nodejs project, full-stack project",
   "main": "build.js",
   "scripts": {
-    "test": "test",
+    "test": "cross-env NODE_ENV=local mocha ./test",
     "build": "cross-env NODE_ENV=prod webpack --config build.js",
     "local": "cross-env NODE_ENV=local node local.js",
     "swagger": "cross-env NODE_ENV=local node swauger-ui.js"
@@ -38,6 +38,8 @@
   "dependencies": {
     "babel": "^6.23.0",
     "hapi": "^17.5.2",
+    "mocha": "^5.2.0",
+    "superagent": "^3.8.3",
     "swagger-ui-dist": "^3.17.6",
     "vue": "^2.5.16",
     "vuex": "^3.0.1"
