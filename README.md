@@ -24,8 +24,8 @@ npm i;
 npm run build
 
 #### Run local dev server
-step 1: npm run local
-step 2: http://localhost:3000/
+##### step 1: npm run local
+##### step 2: http://localhost:3000/
 
 ## Test
 npm run test
